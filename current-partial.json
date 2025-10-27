@@ -1,0 +1,2041 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated_at": "2025-10-27T08:52:52.604Z",
+    "month": "October",
+    "month_number": 10,
+    "year": 2025,
+    "is_complete": false,
+    "date_range": {
+      "oldest": "2025-10-01T14:31:02.000Z",
+      "newest": "2025-10-25T00:24:28.000Z"
+    },
+    "total_transactions": 58,
+    "block_range": {
+      "min": 17657004,
+      "max": 18002295
+    },
+    "event_types": {
+      "BBL_LISTING": 14,
+      "BBL_DELIST": 2,
+      "BOOST_TRANSFER": 7,
+      "BOOST_STAKE_DAODAO": 2,
+      "NFTSWITCH_OTC_COMPLETE": 1,
+      "NFTSWITCH_OTC_CREATE": 1,
+      "BBL_SALE": 6,
+      "DAODAO_STAKE": 6,
+      "ENTERPRISE_UNSTAKE_BOOST": 3,
+      "BOOST_LISTING": 1,
+      "BOOST_CANCEL": 8,
+      "NFT_BREAK": 7
+    }
+  },
+  "transactions": [
+    {
+      "block_height": 18002295,
+      "timestamp": "2025-10-25T00:24:28Z",
+      "tx_hash": "2CB652A8DD8BCD41EDFFC88864463CB14C7A0520E80234EBD07B8AC75CBF9313",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "7607"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "249.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007712 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 18002150,
+      "timestamp": "2025-10-25T00:10:17Z",
+      "tx_hash": "5EE6A46EB44A47C4F5C83B63B59C0ACC39BE36C4373DCA85AD86498D52D87757",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "6043"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "199.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007695 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 18002099,
+      "timestamp": "2025-10-25T00:05:24Z",
+      "tx_hash": "DDEF806FF58C7635F3520B91356E3D8052FDB935C4C70A18C7C816C5C10FE61E",
+      "event_type": "BBL_DELIST",
+      "nft": {
+        "token_ids": [
+          "6043"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.010229 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 18001959,
+      "timestamp": "2025-10-24T23:51:43Z",
+      "tx_hash": "F3C8B4A773319971D74A7F37A30FFB8BA466F974D1EE217D85CBB3EDD93877CB",
+      "event_type": "BBL_DELIST",
+      "nft": {
+        "token_ids": [
+          "7607"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.010247 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17886294,
+      "timestamp": "2025-10-17T04:04:00Z",
+      "tx_hash": "572AFCCE7E1D0B3C6081303B8DE61C3721F06F80F77FA81A6291E20423A92097",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "1380"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003257 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17886068,
+      "timestamp": "2025-10-17T03:42:00Z",
+      "tx_hash": "482E51EE0AED49888425C1D90CF21833E044A372D78C837EA50750506B0DCA9F",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "1293"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003257 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17885877,
+      "timestamp": "2025-10-17T03:23:24Z",
+      "tx_hash": "62900AC7D622C2E527BED96FC6244C468BEFD832E1D80A7463C51A4F209507DE",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "1255"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003250 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17871214,
+      "timestamp": "2025-10-16T03:32:01Z",
+      "tx_hash": "CBE0C464C35A9E97DDB790DAA8441F0B3D723F48D143E65974AD3F06E85C48B6",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "1052"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003244 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17871203,
+      "timestamp": "2025-10-16T03:30:56Z",
+      "tx_hash": "CF5FF46887522CD918487FE249AC557A247324E6BB944842961B9113AAA8FD7F",
+      "event_type": "BOOST_STAKE_DAODAO",
+      "nft": {
+        "token_ids": [
+          "1004"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009561 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17871192,
+      "timestamp": "2025-10-16T03:29:52Z",
+      "tx_hash": "33B7855558853055EF4AF1C5BB768FB216D54349BD6773CD7BD2020C71DEAE08",
+      "event_type": "NFTSWITCH_OTC_COMPLETE",
+      "nft": {
+        "token_ids": [
+          "1004"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "2.040000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.008167 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17871187,
+      "timestamp": "2025-10-16T03:29:22Z",
+      "tx_hash": "8B508B970A9F30163B229BD35556AC6307388F364FEDD1655DD574BEE28A084C",
+      "event_type": "NFTSWITCH_OTC_CREATE",
+      "nft": {
+        "token_ids": [
+          "1004"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "2.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.012735 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17848946,
+      "timestamp": "2025-10-14T15:16:53Z",
+      "tx_hash": "517D085ACD4B50EDA6415F1DE9A01C0A63F034FCB4D6D6FE70918C0E382F4D94",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "3290"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1vuzw2x6236vx9xnp6ya7m92zd3rt7fcjaugyk4"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "249.990000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007709 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17848920,
+      "timestamp": "2025-10-14T15:14:20Z",
+      "tx_hash": "32C2B13E70E3B2909C999ADFE3B34E91FE85009A41FF81CEB1EB334470FCD468",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "3290"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1vuzw2x6236vx9xnp6ya7m92zd3rt7fcjaugyk4"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "190.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022653 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17802983,
+      "timestamp": "2025-10-11T12:25:18Z",
+      "tx_hash": "83B827458C6607AC223C1C1D4067D2F2F837E7BC2F6274BCEC04396B3AE460B7",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "3639",
+          "8699"
+        ],
+        "count": 2
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1exu3f6t72x7w06ppu5vu5m5m9s4glywenfnplr"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.031888 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17802934,
+      "timestamp": "2025-10-11T12:20:33Z",
+      "tx_hash": "EF2E6E83260D24EF09C0942FD29617A3CCA3C2D042F65E7A55BD22F798BB9B79",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "8699"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1exu3f6t72x7w06ppu5vu5m5m9s4glywenfnplr"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1rswkqrpnha7ttr7svj52ylw2j5kcyw9hrhz4vr"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003250 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17802931,
+      "timestamp": "2025-10-11T12:20:15Z",
+      "tx_hash": "20D4BD789CA3D7AE9047484555EB62FD9961CBE033B204EB3CEE36896E5229BF",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "3639"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1exu3f6t72x7w06ppu5vu5m5m9s4glywenfnplr"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1rswkqrpnha7ttr7svj52ylw2j5kcyw9hrhz4vr"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003254 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17802928,
+      "timestamp": "2025-10-11T12:19:58Z",
+      "tx_hash": "7A0DC4FEA2238E56AE21738DE158BA775B884BB13C05DC96488E6CF3BEE08C0A",
+      "event_type": "ENTERPRISE_UNSTAKE_BOOST",
+      "nft": {
+        "token_ids": [
+          "3639",
+          "8699"
+        ],
+        "count": 2
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1rswkqrpnha7ttr7svj52ylw2j5kcyw9hrhz4vr"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1rswkqrpnha7ttr7svj52ylw2j5kcyw9hrhz4vr"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007430 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17802919,
+      "timestamp": "2025-10-11T12:19:07Z",
+      "tx_hash": "A5C0A8B7C468C2F4491B550BDCD3CA9F932006BECFBEB2A83FDBF97295FFFF91",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "1207",
+          "200",
+          "8595"
+        ],
+        "count": 3
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra12u7jfsekpjp3k9g766qjxe9wcvelpxp06474pl"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.046276 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17802899,
+      "timestamp": "2025-10-11T12:17:09Z",
+      "tx_hash": "C5700AD8E0EAC08FE9B519423C6199A592AD5B263DF4B9207C353F6D27C6E300",
+      "event_type": "ENTERPRISE_UNSTAKE_BOOST",
+      "nft": {
+        "token_ids": [
+          "1207",
+          "200",
+          "8595"
+        ],
+        "count": 3
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra12u7jfsekpjp3k9g766qjxe9wcvelpxp06474pl"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra12u7jfsekpjp3k9g766qjxe9wcvelpxp06474pl"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009981 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17802881,
+      "timestamp": "2025-10-11T12:15:25Z",
+      "tx_hash": "70C479A66A35E2C1C3A125F705052F3F202B68AD4AF9DDA44C99A77A0C0BB7D0",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "1157",
+          "6177",
+          "7798",
+          "81",
+          "8196"
+        ],
+        "count": 5
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1exu3f6t72x7w06ppu5vu5m5m9s4glywenfnplr"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.075399 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17802871,
+      "timestamp": "2025-10-11T12:14:25Z",
+      "tx_hash": "E9009D0ED166CFE2F59109E07285026B1349F84D95D8138F50FE2293727C3AE9",
+      "event_type": "ENTERPRISE_UNSTAKE_BOOST",
+      "nft": {
+        "token_ids": [
+          "1157",
+          "6177",
+          "7798",
+          "81",
+          "8196"
+        ],
+        "count": 5
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1exu3f6t72x7w06ppu5vu5m5m9s4glywenfnplr"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1exu3f6t72x7w06ppu5vu5m5m9s4glywenfnplr"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.014825 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17788582,
+      "timestamp": "2025-10-10T12:58:54Z",
+      "tx_hash": "70586820AC4F270AFA087069056756C53ED71B381B80F30630DCCE335673C2C0",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "6333"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "299.000300 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007893 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17788579,
+      "timestamp": "2025-10-10T12:58:37Z",
+      "tx_hash": "95DDF534B96CBFA9EAE6074030D65BFFCBCC9A5990EB17569D9C51787A075DD9",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "6069"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "299.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007891 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17788575,
+      "timestamp": "2025-10-10T12:58:13Z",
+      "tx_hash": "09ED7B988DA52D35FBA2A4995149366025EFE3813761E41D0EF43AD16C6999DA",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "1692"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "299.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007891 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17788571,
+      "timestamp": "2025-10-10T12:57:49Z",
+      "tx_hash": "A5DF3E0C9C9E0D9F1DA2E0A23CB36A8FABEACA305A30580D945177377D9974B8",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "1554"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "299.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007893 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17788423,
+      "timestamp": "2025-10-10T12:43:27Z",
+      "tx_hash": "00754C0F152F0E9BEA3543ACFBDB4A78D92B1DA1D5E427CFD90C66E13E88C510",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "1692"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "169.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022834 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17788359,
+      "timestamp": "2025-10-10T12:37:11Z",
+      "tx_hash": "1039B2AB68D90678888F2BD026FDAA65B0E96021D0D7716A17309C759AFF68FF",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "1554"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "159.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022837 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17788357,
+      "timestamp": "2025-10-10T12:37:00Z",
+      "tx_hash": "8A6CED5C9825A69F2DF1DAB4516E1D75FD0F43FF3B9604F34915D7936AD11C3D",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "6333"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "155.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022837 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17788349,
+      "timestamp": "2025-10-10T12:36:11Z",
+      "tx_hash": "06370EB64C941D098CB32FB9D40FE4100714935EB9E0AF9AFA68E53FBB5B1333",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "6069"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "139.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022835 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17784919,
+      "timestamp": "2025-10-10T07:02:12Z",
+      "tx_hash": "D79BDB62FA74165B7ED0770724BA50A3D1738F39D2D2F1C6610A0A3F73903D1F",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "7607"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "250.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007712 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17784893,
+      "timestamp": "2025-10-10T06:59:40Z",
+      "tx_hash": "7CF5DEE7C4C03173533E5AA00FD2BBF261FC1FB67829F74A2DC4F3F3C652B57D",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "3290"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "190.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007709 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17784830,
+      "timestamp": "2025-10-10T06:53:35Z",
+      "tx_hash": "AA20C535514572121F716090D3F82D7AE45E851D3AE7196D3E0C35C7C20176AF",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "6333"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "155.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007697 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17784742,
+      "timestamp": "2025-10-10T06:44:56Z",
+      "tx_hash": "7ABD64F645DF6C4827D7CD6BA3B78923DB7B0F1BDE0CAD867876D55819474082",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "1692"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1clwaxwuj9htuwwwr8d3jf3whchdezcdn0s655v"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "169.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007695 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17766352,
+      "timestamp": "2025-10-09T00:51:45Z",
+      "tx_hash": "893C038B7BBD9BF16DD7B41509B490B2C9A2AF628D28B0CB15AF18F0F3E44CE9",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "2113"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "299.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007889 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17766289,
+      "timestamp": "2025-10-09T00:45:34Z",
+      "tx_hash": "C7E5B9662981633B153791ECB59715FED7531F2A609E2CB9323FC4F941F580FF",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "2113"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra10s2nj7d9dkqypschw9rrqddl4v5f7ywe8nrnvd"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1fjd6thl0dqh6e5wv9z7rdrqzmtp0xau7fdejpq"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "87.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022825 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17765712,
+      "timestamp": "2025-10-08T23:49:01Z",
+      "tx_hash": "0B92EE8E13B344622A7F30E553EDECC6CD7C68128C8327F8BB750A1BC8565CEA",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "2113"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra10s2nj7d9dkqypschw9rrqddl4v5f7ywe8nrnvd"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "87.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007691 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17761264,
+      "timestamp": "2025-10-08T16:34:24Z",
+      "tx_hash": "2E979A18DE0AE79A96E4ACEA6F861383801775F13833FF9C9C3517248F80BD8D",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "6192"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": true,
+        "formatted": "300.000000 LUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007699 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17761225,
+      "timestamp": "2025-10-08T16:30:34Z",
+      "tx_hash": "F35CAC83A6F3B02427CF900CDFEF915A5A04B5D86F623B0595CB9086E19022C1",
+      "event_type": "BOOST_LISTING",
+      "nft": {
+        "token_ids": [
+          "3629"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": false,
+        "address": null
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005441 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17759676,
+      "timestamp": "2025-10-08T13:59:20Z",
+      "tx_hash": "B947CD9D63833F2C6F23922F5304C88E4BD5C7852B32EE784DE202098E634A20",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "3605",
+          "4102",
+          "5524"
+        ],
+        "count": 3
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1exu3f6t72x7w06ppu5vu5m5m9s4glywenfnplr"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.046394 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17733334,
+      "timestamp": "2025-10-06T18:59:51Z",
+      "tx_hash": "93EB7987847E45402E46DC53045953EC18782530A8E3FD906325DF5AC3189309",
+      "event_type": "BOOST_STAKE_DAODAO",
+      "nft": {
+        "token_ids": [
+          "3409"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009570 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17733324,
+      "timestamp": "2025-10-06T18:58:53Z",
+      "tx_hash": "311D706953A69B22440BECDEDF1907B98644FC683B758BE89DB64A21293CDB34",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "3409"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003257 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17729777,
+      "timestamp": "2025-10-06T13:12:00Z",
+      "tx_hash": "E6127D14310072123B59E814DD0C9008975EAFA5795D1ECB22C3B56C23BB72A3",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "1255"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005240 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17729774,
+      "timestamp": "2025-10-06T13:11:43Z",
+      "tx_hash": "9B17D8867C947A0CF8B1D5BC3A22E077A35688138A8E25E0ACA7DF99163CE9AD",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "1294"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005240 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17729769,
+      "timestamp": "2025-10-06T13:11:13Z",
+      "tx_hash": "94492F9B7F9477BBC448511BC7A0DF70B0198FADC02E3A64A0C2B840FAAAC527",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "1380"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005247 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17729766,
+      "timestamp": "2025-10-06T13:10:55Z",
+      "tx_hash": "FFE8DB1CED4EE7886CFD5CAE0CEBABF3E634577C094FC8EFD3D006C2F2D398F8",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "1004"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005238 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17729765,
+      "timestamp": "2025-10-06T13:10:49Z",
+      "tx_hash": "3E06C53E15C0021EC0EB5FAD41580F6F5D440765AA05D9F5E9E154496D53F5C4",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "1293"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005247 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17729763,
+      "timestamp": "2025-10-06T13:10:37Z",
+      "tx_hash": "F1CBE37440E58BA270F765051F2C0FE259DE178B11579BF90CF63F2B024E6BB1",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "1052"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005234 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17719348,
+      "timestamp": "2025-10-05T20:11:38Z",
+      "tx_hash": "CBA9F07CC07ECEDF960E1CB4ABB766B7EAB83AF699BF113A0C1E0CEFB7C3EA70",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "1453"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.017014 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17699663,
+      "timestamp": "2025-10-04T12:06:12Z",
+      "tx_hash": "876C130492009B89BA1B5EBD03FDC47C78951CDB5A96F951802985A880028F51",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "1364",
+          "1496",
+          "1551",
+          "2904",
+          "2925",
+          "4110",
+          "4167",
+          "4224",
+          "4364",
+          "439",
+          "4944",
+          "6027",
+          "7183",
+          "7369",
+          "7435",
+          "7442",
+          "7801",
+          "8011",
+          "8118"
+        ],
+        "count": 19
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.278198 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17699252,
+      "timestamp": "2025-10-04T11:25:41Z",
+      "tx_hash": "27E06BF4A5E9EC0F403D6396BD20B722E7AD4C58B34BBDE9205CC1B3F81EA8A8",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "6192"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005240 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17674543,
+      "timestamp": "2025-10-02T19:06:04Z",
+      "tx_hash": "8E6FC36BC4904963E82F34460B541A0FF681C3917E720E2B0B2B1DE0C8B1906A",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "6748"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1k7cftdjzdmtqmfl5nyny8vu77m280tm8c009x5"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006205 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17674541,
+      "timestamp": "2025-10-02T19:05:52Z",
+      "tx_hash": "7CE0EA8373799BDE6296A4958BBDA62792B16A824ABF87B513371CFE9C0BB9E9",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "2456"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1k7cftdjzdmtqmfl5nyny8vu77m280tm8c009x5"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006204 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17674493,
+      "timestamp": "2025-10-02T19:01:08Z",
+      "tx_hash": "0F910638D5ADAF472B3AED4241749419E8E43894636DD121AD36A08CEFBC23C7",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "7284"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1ysxg3v9udswxqf6cequgzd77p89vepsjezvf94"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006206 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17674491,
+      "timestamp": "2025-10-02T19:00:56Z",
+      "tx_hash": "B3BB6C8A28945E161D5841D78EEF2335B5977382134590DBCB9C40A490C85572",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "6609"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1ysxg3v9udswxqf6cequgzd77p89vepsjezvf94"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006206 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17674489,
+      "timestamp": "2025-10-02T19:00:45Z",
+      "tx_hash": "2E14806E2F20E5B042C6838FB148B7AD89C18CC43AD6DAB71CEA810BDC2D8E2C",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "5144"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1ysxg3v9udswxqf6cequgzd77p89vepsjezvf94"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006207 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17674486,
+      "timestamp": "2025-10-02T19:00:27Z",
+      "tx_hash": "3BF8F8192FC3B0AA650D48043CB90FC5F5D5262DAE01791FC3E3A56766FA1B4A",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "3414"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1ysxg3v9udswxqf6cequgzd77p89vepsjezvf94"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006205 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17657023,
+      "timestamp": "2025-10-01T14:32:51Z",
+      "tx_hash": "499BFF3F3BF380C5679730F4027B3FA6ACEC31F8EF412B6EB0A5D33FBEA2BE71",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "3409"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006207 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 17657004,
+      "timestamp": "2025-10-01T14:31:02Z",
+      "tx_hash": "7722D7D2B30B3353DC38560BBBE126AAB0CA314F3DF267AFFFCF0CA97E8ED507",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "3409"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005247 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    }
+  ]
+}
