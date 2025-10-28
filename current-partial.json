@@ -1,21 +1,22 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "generated_at": "2025-10-27T08:52:52.604Z",
+    "generated_at": "2025-10-28T06:25:23.810Z",
     "month": "October",
     "month_number": 10,
     "year": 2025,
     "is_complete": false,
     "date_range": {
-      "oldest": "2025-10-01T14:31:02.000Z",
-      "newest": "2025-10-25T00:24:28.000Z"
+      "oldest": "2025-10-01T08:50:33.000Z",
+      "newest": "2025-10-26T08:50:12.000Z"
     },
-    "total_transactions": 58,
+    "total_transactions": 85,
     "block_range": {
-      "min": 17657004,
-      "max": 18002295
+      "min": 17653521,
+      "max": 18022274
     },
     "event_types": {
+      "ALLIANCE_CLAIM": 24,
       "BBL_LISTING": 14,
       "BBL_DELIST": 2,
       "BOOST_TRANSFER": 7,
@@ -25,12 +26,96 @@
       "BBL_SALE": 6,
       "DAODAO_STAKE": 6,
       "ENTERPRISE_UNSTAKE_BOOST": 3,
+      "ALLY_REWARDS_CLAIM_FAILED": 2,
       "BOOST_LISTING": 1,
       "BOOST_CANCEL": 8,
+      "DAODAO_CLAIM_NFTS": 1,
       "NFT_BREAK": 7
     }
   },
   "transactions": [
+    {
+      "block_height": 18022274,
+      "timestamp": "2025-10-26T08:50:12Z",
+      "tx_hash": "C7459281096C93D781C35ECCBC1B0761307239668E48654AD07ADF2A69D51361",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "836.622130 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 720.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "929.580144",
+        "ampLunaUser": "836.622130",
+        "ampLunaTreasury": "92.958014",
+        "totalLuna": "1701.951473",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "836.622130 ampLUNA"
+      }
+    },
+    {
+      "block_height": 18007487,
+      "timestamp": "2025-10-25T08:50:16Z",
+      "tx_hash": "DD4C183CF0189C1287F5BE2D6DF77774B9E5282ACA9015A141787ECA19E3B249",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "837.148938 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 720.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "930.165486",
+        "ampLunaUser": "837.148938",
+        "ampLunaTreasury": "93.016548",
+        "totalLuna": "1701.850705",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "837.148938 ampLUNA"
+      }
+    },
     {
       "block_height": 18002295,
       "timestamp": "2025-10-25T00:24:28Z",
@@ -48,7 +133,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -82,7 +167,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -165,6 +250,334 @@
       "rewards": {
         "exists": false,
         "formatted": null
+      }
+    },
+    {
+      "block_height": 17992702,
+      "timestamp": "2025-10-24T08:50:02Z",
+      "tx_hash": "9E1A5E8500BD5EC20A24573FE9E928C1DB802CC4DA8DEA1233D7079A6068C905",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "837.497796 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 720.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "930.553106",
+        "ampLunaUser": "837.497796",
+        "ampLunaTreasury": "93.055310",
+        "totalLuna": "1701.384393",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "837.497796 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17977925,
+      "timestamp": "2025-10-23T08:50:23Z",
+      "tx_hash": "F55144963F1B186AC92E2A0B8AD204110C621C0BC97DA31DE571D5D3AE0494DE",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "841.830064 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 719.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "935.366737",
+        "ampLunaUser": "841.830064",
+        "ampLunaTreasury": "93.536673",
+        "totalLuna": "1708.985795",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "841.830064 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17963123,
+      "timestamp": "2025-10-22T08:50:13Z",
+      "tx_hash": "6D92289938F54E506E98F2574861D0C0B195490F9E04986159188D03467D56B5",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "833.523890 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 719.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "926.137655",
+        "ampLunaUser": "833.523890",
+        "ampLunaTreasury": "92.613765",
+        "totalLuna": "1690.955857",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "833.523890 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17948443,
+      "timestamp": "2025-10-21T08:50:21Z",
+      "tx_hash": "735493F3904AFB015B157901A4A50D3C2DB60EE5705C9E25FBDE0635CBF90BDE",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "839.728835 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 733.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "933.032038",
+        "ampLunaUser": "839.728835",
+        "ampLunaTreasury": "93.303203",
+        "totalLuna": "1702.376857",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "839.728835 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17933657,
+      "timestamp": "2025-10-20T08:50:15Z",
+      "tx_hash": "27D51FAF74138794E70D64027370F714A314437A9D43D8C6A4F1CC38409B04FB",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "841.650331 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 718.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "935.167034",
+        "ampLunaUser": "841.650331",
+        "ampLunaTreasury": "93.516703",
+        "totalLuna": "1705.080667",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "841.650331 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17918851,
+      "timestamp": "2025-10-19T08:50:14Z",
+      "tx_hash": "89CDB73562F9BD302C3308F34284C189E299CFFBA870FBE2E239361263A72CF2",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "843.298889 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 700.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "936.998765",
+        "ampLunaUser": "843.298889",
+        "ampLunaTreasury": "93.699876",
+        "totalLuna": "1707.241737",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "843.298889 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17904036,
+      "timestamp": "2025-10-18T08:50:00Z",
+      "tx_hash": "CAF6819EF81309EB0F6F2FA6A2EA0980B0481FC0081BDAC2A59118B8F22D4BFF",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "842.672768 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 718.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "936.303075",
+        "ampLunaUser": "842.672768",
+        "ampLunaTreasury": "93.630307",
+        "totalLuna": "1704.795134",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "842.672768 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17889239,
+      "timestamp": "2025-10-17T08:50:42Z",
+      "tx_hash": "C06FEA4D61DD45BE17D33D14586F0CB1181540A186329B647A62A50BBC2A7F2D",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "845.809971 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 718.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "939.788856",
+        "ampLunaUser": "845.809971",
+        "ampLunaTreasury": "93.978885",
+        "totalLuna": "1709.946330",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "845.809971 ampLUNA"
       }
     },
     {
@@ -270,6 +683,47 @@
       }
     },
     {
+      "block_height": 17874474,
+      "timestamp": "2025-10-16T08:50:25Z",
+      "tx_hash": "395B6AD174EFE34A542F85434DBDF64921E805CF6BF64E5FA4A78EA736A477C1",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "847.460194 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 718.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "941.622437",
+        "ampLunaUser": "847.460194",
+        "ampLunaTreasury": "94.162243",
+        "totalLuna": "1712.099767",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "847.460194 ampLUNA"
+      }
+    },
+    {
       "block_height": 17871214,
       "timestamp": "2025-10-16T03:32:01Z",
       "tx_hash": "CBE0C464C35A9E97DDB790DAA8441F0B3D723F48D143E65974AD3F06E85C48B6",
@@ -316,7 +770,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -350,7 +804,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -388,7 +842,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -403,6 +857,47 @@
       "rewards": {
         "exists": false,
         "formatted": null
+      }
+    },
+    {
+      "block_height": 17859725,
+      "timestamp": "2025-10-15T08:50:15Z",
+      "tx_hash": "D9B864A6583A52EEA5D70B9DD4DF2F74C29F3A5BD722F125CAF0AEF50C08CE3B",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "849.356049 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 766.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "943.728943",
+        "ampLunaUser": "849.356049",
+        "ampLunaTreasury": "94.372894",
+        "totalLuna": "1714.741469",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "849.356049 ampLUNA"
       }
     },
     {
@@ -422,7 +917,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -474,6 +969,129 @@
       }
     },
     {
+      "block_height": 17844996,
+      "timestamp": "2025-10-14T08:51:01Z",
+      "tx_hash": "C7E85386D839A4676241C3DE17F6986597316E624954129CA621655963628FCF",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "868.019661 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 732.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "964.466289",
+        "ampLunaUser": "868.019661",
+        "ampLunaTreasury": "96.446628",
+        "totalLuna": "1751.175945",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "868.019661 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17830274,
+      "timestamp": "2025-10-13T08:50:34Z",
+      "tx_hash": "A15A091C7904116213C8F327B39AB7C2837392AB61C5E7EC90837F101BD4B6B6",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "865.342805 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 727.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "961.492005",
+        "ampLunaUser": "865.342805",
+        "ampLunaTreasury": "96.149200",
+        "totalLuna": "1744.573604",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "865.342805 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17815541,
+      "timestamp": "2025-10-12T08:49:55Z",
+      "tx_hash": "FAA3875241F477A3852FECEA3C777084C49CC4BE9DED9767850E4BF0DD0B75B8",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "1734.552196 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 732.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "1927.280217",
+        "ampLunaUser": "1734.552196",
+        "ampLunaTreasury": "192.728021",
+        "totalLuna": "3494.543218",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "1734.552196 ampLUNA"
+      }
+    },
+    {
       "block_height": 17802983,
       "timestamp": "2025-10-11T12:25:18Z",
       "tx_hash": "83B827458C6607AC223C1C1D4067D2F2F837E7BC2F6274BCEC04396B3AE460B7",
@@ -487,7 +1105,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -626,7 +1244,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -700,7 +1318,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -760,6 +1378,38 @@
       }
     },
     {
+      "block_height": 17800777,
+      "timestamp": "2025-10-11T08:49:56Z",
+      "tx_hash": "9BFB84F05EFA0B1C8D3E6FF559995E12A8D3AD2A88A71E3E2CF56EF70F10E7A7",
+      "event_type": "ALLY_REWARDS_CLAIM_FAILED",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 381.000000 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
       "block_height": 17788582,
       "timestamp": "2025-10-10T12:58:54Z",
       "tx_hash": "70586820AC4F270AFA087069056756C53ED71B381B80F30630DCCE335673C2C0",
@@ -776,7 +1426,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -810,7 +1460,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -844,7 +1494,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -878,7 +1528,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -1032,6 +1682,47 @@
       }
     },
     {
+      "block_height": 17786031,
+      "timestamp": "2025-10-10T08:50:28Z",
+      "tx_hash": "5565AC9B34BBEB62910BAC732A499784CE6562B97091EA874983D04CAF1DD2ED",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "868.051288 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 766.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "964.501431",
+        "ampLunaUser": "868.051288",
+        "ampLunaTreasury": "96.450143",
+        "totalLuna": "1746.412601",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "868.051288 ampLUNA"
+      }
+    },
+    {
       "block_height": 17784919,
       "timestamp": "2025-10-10T07:02:12Z",
       "tx_hash": "D79BDB62FA74165B7ED0770724BA50A3D1738F39D2D2F1C6610A0A3F73903D1F",
@@ -1048,7 +1739,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -1082,7 +1773,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -1116,7 +1807,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -1150,7 +1841,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -1165,6 +1856,47 @@
       "rewards": {
         "exists": false,
         "formatted": null
+      }
+    },
+    {
+      "block_height": 17771259,
+      "timestamp": "2025-10-09T08:50:44Z",
+      "tx_hash": "2AD92BAA5BE35D79106684E2789E3B94AEA22CA093E3F852C57CE65780321C28",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "865.590586 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 732.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "961.767317",
+        "ampLunaUser": "865.590586",
+        "ampLunaTreasury": "96.176731",
+        "totalLuna": "1740.265856",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "865.590586 ampLUNA"
       }
     },
     {
@@ -1184,7 +1916,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -1252,7 +1984,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -1286,7 +2018,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": true,
@@ -1320,7 +2052,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "price": {
         "exists": false,
@@ -1352,7 +2084,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1374,6 +2106,88 @@
       }
     },
     {
+      "block_height": 17756519,
+      "timestamp": "2025-10-08T08:50:55Z",
+      "tx_hash": "1FDD6D04817035A77A07E06E561CD4AB0958AF0F840820DC4D5F0B5AEEF2B865",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "866.922691 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 731.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "963.247434",
+        "ampLunaUser": "866.922691",
+        "ampLunaTreasury": "96.324743",
+        "totalLuna": "1741.738817",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1mnfavz2tcq6shdfph5azt7gwt6va2s6weqdnkq",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "866.922691 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17741757,
+      "timestamp": "2025-10-07T08:50:27Z",
+      "tx_hash": "064EE3154B73DAA2F87209EECF49FD7F25469D431E1BD89271FEF9EF1FAC4B13",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "1726.118993 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 732.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "1917.909992",
+        "ampLunaUser": "1726.118993",
+        "ampLunaTreasury": "191.790999",
+        "totalLuna": "3465.573042",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "1726.118993 ampLUNA"
+      }
+    },
+    {
       "block_height": 17733334,
       "timestamp": "2025-10-06T18:59:51Z",
       "tx_hash": "93EB7987847E45402E46DC53045953EC18782530A8E3FD906325DF5AC3189309",
@@ -1386,7 +2200,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1646,6 +2460,38 @@
       }
     },
     {
+      "block_height": 17727100,
+      "timestamp": "2025-10-06T08:49:59Z",
+      "tx_hash": "805F40C5F9F7B6D65AA6FF604A2C1CE5A13D7384ACDB13EA2137DA5006F60449",
+      "event_type": "ALLY_REWARDS_CLAIM_FAILED",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": false,
+        "address": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 381.000000 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
       "block_height": 17719348,
       "timestamp": "2025-10-05T20:11:38Z",
       "tx_hash": "CBA9F07CC07ECEDF960E1CB4ABB766B7EAB83AF699BF113A0C1E0CEFB7C3EA70",
@@ -1658,7 +2504,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1677,6 +2523,47 @@
       "rewards": {
         "exists": false,
         "formatted": null
+      }
+    },
+    {
+      "block_height": 17712384,
+      "timestamp": "2025-10-05T08:49:55Z",
+      "tx_hash": "0FA0807B25592E51AB8DED04AF8BA3790582A09B796F53BB6818CD34AC6D10E6",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "865.597041 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 732.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "961.774490",
+        "ampLunaUser": "865.597041",
+        "ampLunaTreasury": "96.177449",
+        "totalLuna": "1735.493380",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "865.597041 ampLUNA"
       }
     },
     {
@@ -1710,7 +2597,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1766,6 +2653,122 @@
       }
     },
     {
+      "block_height": 17697660,
+      "timestamp": "2025-10-04T08:50:00Z",
+      "tx_hash": "2F02FE5ABC4E210F694E9E392BC0660465D7535CF07D4362300B37F6289E1E14",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "863.625561 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 714.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "959.583956",
+        "ampLunaUser": "863.625561",
+        "ampLunaTreasury": "95.958395",
+        "totalLuna": "1730.369375",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "863.625561 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17682974,
+      "timestamp": "2025-10-03T08:50:54Z",
+      "tx_hash": "53CDB30017E00E6993B4F3AD52D30633FBD69475D3EB172765BBD4898672BA18",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "867.295776 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 732.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "963.661973",
+        "ampLunaUser": "867.295776",
+        "ampLunaTreasury": "96.366197",
+        "totalLuna": "1736.522845",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "867.295776 ampLUNA"
+      }
+    },
+    {
+      "block_height": 17679801,
+      "timestamp": "2025-10-03T03:40:53Z",
+      "tx_hash": "F3F6B0EE31DC02B061105A9F0C3B80CD051820C8327E94DD306177DE32C8653C",
+      "event_type": "DAODAO_CLAIM_NFTS",
+      "nft": {
+        "token_ids": [
+          "2113"
+        ],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra10s2nj7d9dkqypschw9rrqddl4v5f7ywe8nrnvd"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra10s2nj7d9dkqypschw9rrqddl4v5f7ywe8nrnvd"
+      },
+      "price": {
+        "exists": false,
+        "formatted": null,
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 8955.000000 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
       "block_height": 17674543,
       "timestamp": "2025-10-02T19:06:04Z",
       "tx_hash": "8E6FC36BC4904963E82F34460B541A0FF681C3917E720E2B0B2B1DE0C8B1906A",
@@ -1778,7 +2781,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1812,7 +2815,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1846,7 +2849,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1880,7 +2883,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1914,7 +2917,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1948,7 +2951,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -1970,6 +2973,47 @@
       }
     },
     {
+      "block_height": 17668250,
+      "timestamp": "2025-10-02T08:50:50Z",
+      "tx_hash": "C826D2FFCF5F1135170153E7990EF6EE85D24D2C2EBBAB7DE21624C3D16C1D14",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "871.315599 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 732.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "968.128443",
+        "ampLunaUser": "871.315599",
+        "ampLunaTreasury": "96.812844",
+        "totalLuna": "1743.357496",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1pet430t7ykswxuyhh56d4gk6rt7qgu9as6a5r0",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "871.315599 ampLUNA"
+      }
+    },
+    {
       "block_height": 17657023,
       "timestamp": "2025-10-01T14:32:51Z",
       "tx_hash": "499BFF3F3BF380C5679730F4027B3FA6ACEC31F8EF412B6EB0A5D33FBEA2BE71",
@@ -1982,7 +3026,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null
+        "address": "N/A"
       },
       "buyer": {
         "exists": true,
@@ -2035,6 +3079,47 @@
       "rewards": {
         "exists": false,
         "formatted": null
+      }
+    },
+    {
+      "block_height": 17653521,
+      "timestamp": "2025-10-01T08:50:33Z",
+      "tx_hash": "CD9CAFE8FEB55B569AAB5A911E8D1CE0985E3E0FEEC01A82BED701931ED65897",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm"
+      },
+      "price": {
+        "exists": true,
+        "formatted": "873.019689 ampLUNA",
+        "raw_amount": null,
+        "denom": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 710.000000 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "970.021876",
+        "ampLunaUser": "873.019689",
+        "ampLunaTreasury": "97.002187",
+        "totalLuna": "1745.562936",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "873.019689 ampLUNA"
       }
     }
   ]
