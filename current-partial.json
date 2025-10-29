@@ -1,22 +1,23 @@
 {
   "metadata": {
     "version": "2.0.0",
-    "generated_at": "2025-10-29T10:42:00.884Z",
+    "generated_at": "2025-10-29T22:01:00.805Z",
     "month": "October",
     "month_number": 10,
     "year": 2025,
     "is_complete": false,
     "date_range": {
       "oldest": "2025-10-01T08:50:33.000Z",
-      "newest": "2025-10-26T08:50:12.000Z"
+      "newest": "2025-10-29T08:49:55.000Z"
     },
-    "total_transactions": 85,
+    "total_transactions": 89,
     "block_range": {
       "min": 17653521,
-      "max": 18022274
+      "max": 18066548
     },
     "event_types": {
-      "ALLIANCE_CLAIM": 24,
+      "ALLIANCE_CLAIM": 27,
+      "DAODAO_UNSTAKE": 1,
       "BBL_LISTING": 14,
       "BBL_DELIST": 2,
       "BOOST_TRANSFER": 7,
@@ -36,6 +37,218 @@
     "explorer_version": "4.0"
   },
   "transactions": [
+    {
+      "block_height": 18066548,
+      "timestamp": "2025-10-29T08:49:55Z",
+      "tx_hash": "151A6297E2FA8A1EEB92EC23D0BB54F0BB6320886CBD326A43F775773A6FE199",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "832.422683",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "832422683",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "832.422683 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "924.914092",
+        "ampLunaUser": "832.422683",
+        "ampLunaTreasury": "92.491409",
+        "totalLuna": "1696.921573",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "832.422683 ampLUNA"
+      }
+    },
+    {
+      "block_height": 18052051,
+      "timestamp": "2025-10-28T09:13:08Z",
+      "tx_hash": "79855D6B36FA407A5E8AC940891E888B04742A6F5D18B08122F5093174B46A0E",
+      "event_type": "DAODAO_UNSTAKE",
+      "nft": {
+        "token_ids": [
+          "4617",
+          "5157",
+          "6270",
+          "7178",
+          "7964",
+          "8369"
+        ],
+        "count": 6
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra15rku203wqn9ru4p54k5p78j6tk6tmqkjwwpae4",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra15rku203wqn9ru4p54k5p78j6tk6tmqkjwwpae4",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.030302 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 18051814,
+      "timestamp": "2025-10-28T08:49:59Z",
+      "tx_hash": "820AA9D6DAD690D848DC0F7F26A0A79A869F40235771908254B9C221BE1BD991",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "833.978065",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "833978065",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "833.978065 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000734 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "926.642294",
+        "ampLunaUser": "833.978065",
+        "ampLunaTreasury": "92.664229",
+        "totalLuna": "1698.923860",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "833.978065 ampLUNA"
+      }
+    },
+    {
+      "block_height": 18037058,
+      "timestamp": "2025-10-27T08:51:02Z",
+      "tx_hash": "941678304A409ED20CA3773422C7271352BD06D31EC959F2FD9CEE0C98196D40",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "835.902492",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "835902492",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "835.902492 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "928.780546",
+        "ampLunaUser": "835.902492",
+        "ampLunaTreasury": "92.878054",
+        "totalLuna": "1701.669142",
+        "validatorCount": 50,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "835.902492 ampLUNA"
+      }
+    },
     {
       "block_height": 18022274,
       "timestamp": "2025-10-26T08:50:12Z",
@@ -164,7 +377,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -209,7 +422,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1003,7 +1216,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1048,7 +1261,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1100,7 +1313,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1199,7 +1412,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1445,7 +1658,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1628,7 +1841,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1724,7 +1937,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1816,7 +2029,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1868,7 +2081,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1913,7 +2126,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -1958,7 +2171,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2003,7 +2216,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2282,7 +2495,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2327,7 +2540,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2372,7 +2585,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2417,7 +2630,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2516,7 +2729,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2606,7 +2819,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2651,7 +2864,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2696,7 +2909,7 @@
       },
       "buyer": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2736,7 +2949,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -2889,7 +3102,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3247,7 +3460,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3292,7 +3505,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3409,7 +3622,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3652,7 +3865,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3697,7 +3910,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3742,7 +3955,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3787,7 +4000,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3832,7 +4045,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3877,7 +4090,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
@@ -3976,7 +4189,7 @@
       },
       "seller": {
         "exists": false,
-        "address": null,
+        "address": "N/A",
         "handle": null,
         "name": null,
         "type": null
