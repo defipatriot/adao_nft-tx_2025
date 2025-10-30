@@ -1,0 +1,4918 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "generated_at": "2025-10-30T00:36:36.332Z",
+    "month": "June",
+    "month_number": 6,
+    "year": 2025,
+    "is_complete": true,
+    "date_range": {
+      "oldest": "2025-06-01T08:50:55.000Z",
+      "newest": "2025-07-01T04:00:02.000Z"
+    },
+    "total_transactions": 102,
+    "block_range": {
+      "min": 15862390,
+      "max": 16298494
+    },
+    "event_types": {
+      "BBL_SALE": 9,
+      "ALLIANCE_CLAIM": 29,
+      "DAODAO_STAKE": 17,
+      "BOOST_TRANSFER": 9,
+      "BOOST_LISTING": 7,
+      "BBL_LISTING": 3,
+      "BOOST_CANCEL": 7,
+      "NFT_BREAK": 4,
+      "NFTSWITCH_BATCH_TRANSFER": 2,
+      "ALLY_REWARDS_CLAIM_FAILED": 1,
+      "UNKNOWN_EVENT": 1,
+      "BBL_DELIST": 5,
+      "NFTSWITCH_OTC_COMPLETE": 2,
+      "NFTSWITCH_OTC_CONFIRM": 2,
+      "NFTSWITCH_OTC_CREATE": 2,
+      "DAODAO_UNSTAKE": 2
+    },
+    "data_source": "Alliance DAO TX Explorer",
+    "explorer_version": "4.0"
+  },
+  "transactions": [
+    {
+      "block_height": 16298494,
+      "timestamp": "2025-07-01T04:00:02Z",
+      "tx_hash": "C9E70CBA1ACEAAD1E075BB1D43B14F0C951DD671E7CD09FEC53A2CD30EC1FC8B",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "1380"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1g0wvxl98ax9xh38qgvydmhsn2w92m0x535g7yd",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "222.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "222000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "222.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022538 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16298490,
+      "timestamp": "2025-07-01T03:59:38Z",
+      "tx_hash": "C8A0728EC9187831D03F2506D700CD551CCB7EB83A0E96189EB1A1F6FC42E0A9",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "859"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1uqmtgzrnu4dzzw5mpfex5yuxh5y3c75xh5hzlw",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "199.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "199000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "199.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022525 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16286809,
+      "timestamp": "2025-06-30T08:50:48Z",
+      "tx_hash": "DE58CB7ECAAC7DE4CB7C5AB25783A33DEE955C4014FEC537AE78F0390B915368",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "826.733578",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "826733578",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "826.733578 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000698 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "918.592864",
+        "ampLunaUser": "826.733578",
+        "ampLunaTreasury": "91.859286",
+        "totalLuna": "1557.748982",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "826.733578 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16272185,
+      "timestamp": "2025-06-29T08:51:17Z",
+      "tx_hash": "AC7301A1CB39120B57FB8CF96C8E934DFAC531F5E14D7EE700ACFAFB368C585E",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "828.139095",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "828139095",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "828.139095 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "920.154550",
+        "ampLunaUser": "828.139095",
+        "ampLunaTreasury": "92.015455",
+        "totalLuna": "1559.441074",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "828.139095 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16260509,
+      "timestamp": "2025-06-28T13:42:15Z",
+      "tx_hash": "2431FAA3E57A38120C255EBFAD6EE57BFC2BD00638401B2BA0416625CAB2240B",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "426"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra17vya98uxt0jvn8lscz2kxv7jgztun7snqw7krz",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.016828 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16257541,
+      "timestamp": "2025-06-28T08:50:19Z",
+      "tx_hash": "C19C328E682240D5B587995BBC21AD73E6C193CA209D790F5B534628F1D1AB14",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "827.488666",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "827488666",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "827.488666 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000703 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "919.431851",
+        "ampLunaUser": "827.488666",
+        "ampLunaTreasury": "91.943185",
+        "totalLuna": "1557.257426",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "827.488666 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16254260,
+      "timestamp": "2025-06-28T03:27:08Z",
+      "tx_hash": "138B59C4C0A174E9F4BD147887ECADB83B7308B581917C606EF17A6EFA057065",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "1799",
+          "1214",
+          "4285"
+        ],
+        "count": 3
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.045870 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16253266,
+      "timestamp": "2025-06-28T01:49:17Z",
+      "tx_hash": "D5F51798EBCCDDEB0F8825FF3B730DBC7BF41327B2391B1F745CF71D737B606C",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "426"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra17vya98uxt0jvn8lscz2kxv7jgztun7snqw7krz",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003161 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16253251,
+      "timestamp": "2025-06-28T01:47:48Z",
+      "tx_hash": "89AB7920FCFF9FCDE73793EEB6AB0F4D780ADF21BCC1AB5A8775C7645F371039",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "2546"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1vjgada9t78eh4v8whp9p8cg4evq4erusx9w6w8",
+        "handle": "DigitalCowboy",
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003167 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16242917,
+      "timestamp": "2025-06-27T08:50:11Z",
+      "tx_hash": "8966EDE97E302A1DCC0440B845E50B7D4BE4018723164BBD7ED772E9E98A348A",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "827.417693",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "827417693",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "827.417693 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "919.352992",
+        "ampLunaUser": "827.417693",
+        "ampLunaTreasury": "91.935299",
+        "totalLuna": "1556.173209",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "827.417693 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16228305,
+      "timestamp": "2025-06-26T08:50:24Z",
+      "tx_hash": "EF05C0B4A59A3ECEC07141A1A95747A6A681BC6D493FBD1269AE0985227ECD13",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "828.556057",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "828556057",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "828.556057 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "920.617841",
+        "ampLunaUser": "828.556057",
+        "ampLunaTreasury": "92.061784",
+        "totalLuna": "1557.358119",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "828.556057 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16223526,
+      "timestamp": "2025-06-26T00:59:50Z",
+      "tx_hash": "09C425FC2D73B1677BEE0C2DE4319F4A32D810D2C8B0C0BF09EA23B3774B67D6",
+      "event_type": "BOOST_LISTING",
+      "nft": {
+        "token_ids": [
+          "5010"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1my2fdaqu523g2vfv72p43wkaaa8lqf0ks2xt53",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005302 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16213678,
+      "timestamp": "2025-06-25T08:50:16Z",
+      "tx_hash": "C800BEFB21290A340C3224DCB21FF31BC464C569FC3B4950D272E0A84AB29DD9",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "827.071089",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "827071089",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "827.071089 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "918.967876",
+        "ampLunaUser": "827.071089",
+        "ampLunaTreasury": "91.896787",
+        "totalLuna": "1553.610371",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "827.071089 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16210675,
+      "timestamp": "2025-06-25T03:54:48Z",
+      "tx_hash": "8F0C954750C9753609FAC9D612C7B3FB6A3117F5D57ACEBC78196AF04A7F4503",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "2546"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1ansggn3mkezhts9meztwemcg55welzd4fvcpzf",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "180.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "180000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "180.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022523 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16210327,
+      "timestamp": "2025-06-25T03:20:35Z",
+      "tx_hash": "F151EACD4DBC80C0BB04211F53E6A61A6017F56658BB34A400CB6F5DAD252A52",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "520"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1mqmqc7vmjpslgeju4m0pwwt94gutllnur775kv",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "500.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "500000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "500.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007771 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16203905,
+      "timestamp": "2025-06-24T16:46:16Z",
+      "tx_hash": "6E480D4558AA2F23ACB43FC7F33C453560DEF0A8E269DE841B5EBF25A941E720",
+      "event_type": "BOOST_LISTING",
+      "nft": {
+        "token_ids": [
+          "5622"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra12m9qp3jcxle2923t0rs6uz2k2l9v5kce56r6h9",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005305 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16203898,
+      "timestamp": "2025-06-24T16:45:35Z",
+      "tx_hash": "D415CE548E25C32D018D661579DB8CB4FFA6D4C6CB5B64984F8E44B6D17F0D06",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "5622"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra12m9qp3jcxle2923t0rs6uz2k2l9v5kce56r6h9",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra12m9qp3jcxle2923t0rs6uz2k2l9v5kce56r6h9",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005174 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16203817,
+      "timestamp": "2025-06-24T16:37:36Z",
+      "tx_hash": "6F939F6D4B8FE67BB975066B17BD21F350A10343D6DA21E2AB849D076CA19C89",
+      "event_type": "BOOST_LISTING",
+      "nft": {
+        "token_ids": [
+          "5622"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra12m9qp3jcxle2923t0rs6uz2k2l9v5kce56r6h9",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005370 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16203782,
+      "timestamp": "2025-06-24T16:34:11Z",
+      "tx_hash": "0A2EF11E0E04185163A8D34CA86EF7599165FA0F3C6C73EDEA5FABBEB7BEE520",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "5622"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra12m9qp3jcxle2923t0rs6uz2k2l9v5kce56r6h9",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra12m9qp3jcxle2923t0rs6uz2k2l9v5kce56r6h9",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005127 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16199090,
+      "timestamp": "2025-06-24T08:51:20Z",
+      "tx_hash": "9A5A81DF43552AE13145B31B1495DCEE4292A0376AA0B2E7018CEB118E85A584",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "828.632250",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "828632250",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "828.632250 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "920.702500",
+        "ampLunaUser": "828.632250",
+        "ampLunaTreasury": "92.070250",
+        "totalLuna": "1555.576873",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper10c04ysz9uznx2mkenuk3j3esjczyqh0j783nzt",
+        "stakingValidatorName": "SCV-Security",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "828.632250 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16184487,
+      "timestamp": "2025-06-23T08:49:57Z",
+      "tx_hash": "D2FDE4CBD089282397EC31758E6B9AD172BECD2B357538B3A6AEB6A3EABC75DC",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "832.213511",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "832213511",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "832.213511 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000698 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "924.681678",
+        "ampLunaUser": "832.213511",
+        "ampLunaTreasury": "92.468167",
+        "totalLuna": "1561.346214",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "832.213511 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16181819,
+      "timestamp": "2025-06-23T04:27:53Z",
+      "tx_hash": "FFB0F6190C042FC15D410CFF47DABDA5DB90FC37E81D66565DF06D41217D2E03",
+      "event_type": "BOOST_LISTING",
+      "nft": {
+        "token_ids": [
+          "4199"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005457 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16181798,
+      "timestamp": "2025-06-23T04:25:51Z",
+      "tx_hash": "70E6BCE8C9AA5391EBA1EC8EB6C35EADEF05D1C29274CAAA09AA390A8AA97434",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "4199"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006290 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16169852,
+      "timestamp": "2025-06-22T08:50:37Z",
+      "tx_hash": "90F6D491AA2EB4486559EE645B62671F1AF52AD90ACF59DB91687A6C940A63AA",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "831.561322",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "831561322",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "831.561322 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "923.957024",
+        "ampLunaUser": "831.561322",
+        "ampLunaTreasury": "92.395702",
+        "totalLuna": "1559.180203",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "831.561322 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16165545,
+      "timestamp": "2025-06-22T01:46:49Z",
+      "tx_hash": "51E6564066C2B7DCD2B97A73815D9A0A03906D7A9264EA3348D274A3E9D5BB61",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "3404"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1gp88fnzd4uvk4t5plagz762a29f88qgew3kfa2",
+        "handle": "MojoStudio",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.010160 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16157752,
+      "timestamp": "2025-06-21T12:59:35Z",
+      "tx_hash": "24581EBFAE80E412171780EB7C190EBC5B7E42C552B95CC313FF83D359D6250F",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "620"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1dr9xlcr5s7dt7apycdxe82g5l66pyh3djad20w",
+        "handle": "Llewyn #2",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009884 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16155230,
+      "timestamp": "2025-06-21T08:51:29Z",
+      "tx_hash": "6AE50D182DBF4162C53831E088226DFF8F91085582F3B6660C0D809C05DBF139",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "833.225277",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "833225277",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "833.225277 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "925.805863",
+        "ampLunaUser": "833.225277",
+        "ampLunaTreasury": "92.580586",
+        "totalLuna": "1561.348110",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "833.225277 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16147057,
+      "timestamp": "2025-06-20T19:27:31Z",
+      "tx_hash": "11E6302924A41FA558AD89D1CF89EC7336343A89E6AF31037ABB7F3759AD4DA5",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "9337",
+          "97"
+        ],
+        "count": 2
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1krxhlsypsmdv6nd42aejekedx2jn85qzlfy7fw",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.018016 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16147052,
+      "timestamp": "2025-06-20T19:27:02Z",
+      "tx_hash": "37FFDA335AFFB91423F8B24BAB5218554247B8F6D09C12389019558F580020FB",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "7943",
+          "8870",
+          "8998"
+        ],
+        "count": 3
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1krxhlsypsmdv6nd42aejekedx2jn85qzlfy7fw",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.025886 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16147046,
+      "timestamp": "2025-06-20T19:26:26Z",
+      "tx_hash": "A082D7F28B5324315975C77CE780089D8937732541E378AF8886EC2F1937FA64",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "4015",
+          "5280",
+          "7720"
+        ],
+        "count": 3
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1krxhlsypsmdv6nd42aejekedx2jn85qzlfy7fw",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.025874 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16147038,
+      "timestamp": "2025-06-20T19:25:39Z",
+      "tx_hash": "9FE378A6B8422FD25696CC7D350A22061E09AFE182247548EE0F678FAC11F5F3",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "13",
+          "149",
+          "3733"
+        ],
+        "count": 3
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1krxhlsypsmdv6nd42aejekedx2jn85qzlfy7fw",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.025826 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16145111,
+      "timestamp": "2025-06-20T16:15:50Z",
+      "tx_hash": "4C3930512A7FCD0234CF7BBA8DFB5614B6114036E45DE4A6500ED2E675820EEB",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "3840"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra104yht840v0dge4mhzhm0yjfd5qcxt33nzl7tdu8nz7y0zarqnujscmq2kg",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003205 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16140621,
+      "timestamp": "2025-06-20T08:51:29Z",
+      "tx_hash": "3448F7B7491296FA6C768C907D485AF729B59780B747A5B02A3320A6DEE3F537",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "834.482836",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "834482836",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "834.482836 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "927.203151",
+        "ampLunaUser": "834.482836",
+        "ampLunaTreasury": "92.720315",
+        "totalLuna": "1562.764888",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "834.482836 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16136615,
+      "timestamp": "2025-06-20T02:17:11Z",
+      "tx_hash": "698C8880D6AE7252D36AEC392AC32F09FAAD8BD049752EFA13FB53F9F092CE08",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "4199"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005279 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16131404,
+      "timestamp": "2025-06-19T17:44:44Z",
+      "tx_hash": "FC85AC428D6147161B7890FD5E1335257C17480733F69C473190A1BDB9CA3FBA",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "1214"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra12hlnzl0hxyjv6kkgd26r27r9dxvdnmc0swc5e4",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "195.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "195000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "195.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022524 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16125969,
+      "timestamp": "2025-06-19T08:50:02Z",
+      "tx_hash": "4607550CBBF2ADC39D8E2714285C94AAF759E8D49B49283E951BE4B81651793D",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "833.625035",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "833625035",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "833.625035 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000716 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "926.250038",
+        "ampLunaUser": "833.625035",
+        "ampLunaTreasury": "92.625003",
+        "totalLuna": "1560.215485",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "833.625035 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16125652,
+      "timestamp": "2025-06-19T08:18:49Z",
+      "tx_hash": "7CBB387674BE5F9461D2813621E383547C358FF9294B572A2F4FA66FF993643D",
+      "event_type": "NFTSWITCH_BATCH_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "349",
+          "6822",
+          "8476",
+          "8881",
+          "5974",
+          "6393",
+          "8337",
+          "561",
+          "4255",
+          "8483",
+          "5366",
+          "1505"
+        ],
+        "count": 12
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1q0tfewa60enuu8utyjs9w7um58njhd7fn2p7d3",
+        "handle": "SpaceToadCapital",
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1l67whaslfrxhhqxyhj3r68vx2gv6gsewfwj5tr",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.037622 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16111327,
+      "timestamp": "2025-06-18T08:50:07Z",
+      "tx_hash": "1E8AC0F1F7970BF07CE7270AF28168F942FFF66B5272D4F33AA6D2BDDEAE419E",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "833.336028",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "833336028",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "833.336028 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "925.928919",
+        "ampLunaUser": "833.336028",
+        "ampLunaTreasury": "92.592891",
+        "totalLuna": "1558.702310",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "833.336028 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16096694,
+      "timestamp": "2025-06-17T08:49:58Z",
+      "tx_hash": "D83FC9255CC1FAEFEFC9C70F4F65D77F57F88209FF1DABA4FB9E54AEBE20B816",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "1668.631732",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "1668631732",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "1668.631732 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000698 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "1854.035257",
+        "ampLunaUser": "1668.631732",
+        "ampLunaTreasury": "185.403525",
+        "totalLuna": "3119.196622",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "1668.631732 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16092238,
+      "timestamp": "2025-06-17T01:32:23Z",
+      "tx_hash": "85047E2EA47139C934F258821D0B0FAF2A79E38A9340BDA1FE56FA6DBE889D7E",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "3396"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra17ezkdj0fqvm8jm9herfdutr0rd55gsu0kmfnpn",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "6996.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "6996000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "6996.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007586 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16091870,
+      "timestamp": "2025-06-17T00:56:19Z",
+      "tx_hash": "89C9098347FBA14E77FEC5FAD90AA659F0D7F05F27FDEA6FD66E744084E947B5",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "3396"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra17ezkdj0fqvm8jm9herfdutr0rd55gsu0kmfnpn",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003178 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16082051,
+      "timestamp": "2025-06-16T08:51:13Z",
+      "tx_hash": "D8EFC2539A4E386C91A1CC7DE3D7A7F9C849E81E6B7C559B51FC08417B084274",
+      "event_type": "ALLY_REWARDS_CLAIM_FAILED",
+      "nft": {
+        "token_ids": [],
+        "count": 0
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1gtuvt6eh4m67tvd2dnfqhgks9ec6ff08c5vlup",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000374 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16072856,
+      "timestamp": "2025-06-15T17:47:26Z",
+      "tx_hash": "90D141988CF95DDFD21B5F23A312FE6A607D7C095F9B01151B0B5059918EDB23",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "1004",
+          "1052",
+          "1255",
+          "1293",
+          "1294"
+        ],
+        "count": 5
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra17vya98uxt0jvn8lscz2kxv7jgztun7snqw7krz",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.041303 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16072764,
+      "timestamp": "2025-06-15T17:38:22Z",
+      "tx_hash": "E1944C4C57F8DD5CE314B5C3DCC6FE05752B366981ABB2389F7B388F78DE81FC",
+      "event_type": "NFTSWITCH_BATCH_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "1293",
+          "1294",
+          "1255",
+          "1004",
+          "1052"
+        ],
+        "count": 5
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra17vya98uxt0jvn8lscz2kxv7jgztun7snqw7krz",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.016109 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16067398,
+      "timestamp": "2025-06-15T08:50:35Z",
+      "tx_hash": "A2C11F7F18FBD35004678D185B054DB7D0B78876DEEDDEAC63794499C77256FF",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "834.925643",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "834925643",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "834.925643 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "927.695158",
+        "ampLunaUser": "834.925643",
+        "ampLunaTreasury": "92.769515",
+        "totalLuna": "1558.847217",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1pgyelqv0hwjavgf6vhdm4e4pt766wfxxczu20l",
+        "stakingValidatorName": null,
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "834.925643 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16063238,
+      "timestamp": "2025-06-15T02:01:26Z",
+      "tx_hash": "FC6A7210E0A97B8FE72B29A317201F59CDBDD3623D52E17E7B4D3AAF57D9E063",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "1144"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1vjgada9t78eh4v8whp9p8cg4evq4erusx9w6w8",
+        "handle": "DigitalCowboy",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009892 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16063222,
+      "timestamp": "2025-06-15T01:59:53Z",
+      "tx_hash": "E3041CF426A6139D9FB50C0357B1EF06F9C2F6DD93C91C8F03287C4BA3F872D2",
+      "event_type": "UNKNOWN_EVENT",
+      "nft": {
+        "token_ids": [
+          "1144"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1vjgada9t78eh4v8whp9p8cg4evq4erusx9w6w8",
+        "handle": "DigitalCowboy",
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1pq6k0ftaa5lpj86u30axxplh38ja5s28gm7quv",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003994 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16055456,
+      "timestamp": "2025-06-14T13:16:11Z",
+      "tx_hash": "FAF55BC50C367AD709AF81E9041183C24F200DC6332C4BCA1172649C202CFE32",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "1138"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra16d6pzemu64ckee4l9t2ryrpjdgdrmxzd5jaajp",
+        "handle": "LlewynBonisagus",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.010103 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16052752,
+      "timestamp": "2025-06-14T08:50:26Z",
+      "tx_hash": "F1D6F34861BCF22A59867E70DB728B6EDAF6BCF110AAD26482D983BC8E49951B",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "834.952718",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "834952718",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "834.952718 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "927.725242",
+        "ampLunaUser": "834.952718",
+        "ampLunaTreasury": "92.772524",
+        "totalLuna": "1557.957197",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "834.952718 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16038113,
+      "timestamp": "2025-06-13T08:51:21Z",
+      "tx_hash": "8ACC6D81B4E9948B265AA9686F9F0F0E3917B96BB00AA192ABD9EFFE1558E039",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "835.382555",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "835382555",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "835.382555 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "928.202838",
+        "ampLunaUser": "835.382555",
+        "ampLunaTreasury": "92.820283",
+        "totalLuna": "1557.822292",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "835.382555 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16026469,
+      "timestamp": "2025-06-12T13:45:31Z",
+      "tx_hash": "81CF018A849512348E4909F07705F6B6B671C8C1A30BAC88EA3716E641B6C06D",
+      "event_type": "BBL_LISTING",
+      "nft": {
+        "token_ids": [
+          "1214"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra12hlnzl0hxyjv6kkgd26r27r9dxvdnmc0swc5e4",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "195.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "195000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "195.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007573 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16025921,
+      "timestamp": "2025-06-12T12:51:19Z",
+      "tx_hash": "D1F17281B723913D2B3AD03D4E10E2F2A9A4BDEF3B53B3560BA7C59BAC08AE08",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "1144"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1pq6k0ftaa5lpj86u30axxplh38ja5s28gm7quv",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "100.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "100000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "100.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022802 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16023475,
+      "timestamp": "2025-06-12T08:50:57Z",
+      "tx_hash": "CE0E2BE9ED8C2117E3AD96370442E231AF8CEBBEAB922A67B88E2A76CA1466DC",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "835.558421",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "835558421",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "835.558421 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "928.398245",
+        "ampLunaUser": "835.558421",
+        "ampLunaTreasury": "92.839824",
+        "totalLuna": "1557.197145",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "835.558421 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16017727,
+      "timestamp": "2025-06-11T23:25:18Z",
+      "tx_hash": "81D70233B491CA4BCFB82EF19D40CDE11D66CEAE537BFBA33D0FA79F41A8A154",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "5735",
+          "6582",
+          "8010"
+        ],
+        "count": 3
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1k6424kpxl2ax6c58lutrz2sdkllyuq9dafq8f8",
+        "handle": "Nick74",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.025861 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16011787,
+      "timestamp": "2025-06-11T13:40:46Z",
+      "tx_hash": "15805E8F2B22FAA68386772A09932465130C95AB05E02724B71A0ED45E272F3E",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "8982"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra18au39029aa4mey00fap4l74c936l8efjuqhf6u",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009901 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16008843,
+      "timestamp": "2025-06-11T08:50:53Z",
+      "tx_hash": "F93CA46B92E6426BA73B806711FFB1EECB3B2C42DC43BB30760D40FC4E4C9A1D",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "835.962345",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "835962345",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "835.962345 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000742 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "928.847050",
+        "ampLunaUser": "835.962345",
+        "ampLunaTreasury": "92.884705",
+        "totalLuna": "1557.010642",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "835.962345 ampLUNA"
+      }
+    },
+    {
+      "block_height": 16007549,
+      "timestamp": "2025-06-11T06:43:42Z",
+      "tx_hash": "3700F70B0FA281AA3F84E4AA466637015A7D8A4BD7C868FD15C45FDB356AE81A",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "330"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra14mj7snzwkmfacsschhycsv9xccqhvnyj4gechk",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009868 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16006940,
+      "timestamp": "2025-06-11T05:43:49Z",
+      "tx_hash": "F2176CA1906EC482957EBE4F5A54B84C2005E5E9429D406CFEB9C9D27612CB2E",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "330"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1us60dw5qgxgzx5h0je5ttvanwdzw03r40zqnfy",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra14mj7snzwkmfacsschhycsv9xccqhvnyj4gechk",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "174.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "174000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "174.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022511 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16003343,
+      "timestamp": "2025-06-10T23:50:06Z",
+      "tx_hash": "BE3EEB65D636F5426904DDD04D2E79733AA6531079395313DACA5F694F0952F7",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "4378"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1vjgada9t78eh4v8whp9p8cg4evq4erusx9w6w8",
+        "handle": "DigitalCowboy",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009881 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16001368,
+      "timestamp": "2025-06-10T20:35:55Z",
+      "tx_hash": "75D5A74F749A4299D4483B7EB373914290D5ED506C4F0CDAE57A3C27933111AC",
+      "event_type": "BBL_DELIST",
+      "nft": {
+        "token_ids": [
+          "4793"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.010286 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16001363,
+      "timestamp": "2025-06-10T20:35:25Z",
+      "tx_hash": "7B8660E9C313B26737B5D121F4F601B9D8027983FF5338F3964462CE9D0C457F",
+      "event_type": "BBL_DELIST",
+      "nft": {
+        "token_ids": [
+          "4594"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.010305 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16001358,
+      "timestamp": "2025-06-10T20:34:56Z",
+      "tx_hash": "2910E711CD600844C22F6741D68BBC88A0739145C2F0704D5A37AF0447BD6351",
+      "event_type": "BBL_DELIST",
+      "nft": {
+        "token_ids": [
+          "4743"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.010316 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16001352,
+      "timestamp": "2025-06-10T20:34:20Z",
+      "tx_hash": "E9B7834CC4388E6B287C36ADBCACADC0F33A936F3116EC313C09AB5DEEEA6104",
+      "event_type": "BBL_DELIST",
+      "nft": {
+        "token_ids": [
+          "4574"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.010305 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 16001346,
+      "timestamp": "2025-06-10T20:33:47Z",
+      "tx_hash": "4A6D2895CC4136ADCBA8BFE0C4E49125E71B503DE3EF1C8EDE1729AA95F58B3C",
+      "event_type": "BBL_DELIST",
+      "nft": {
+        "token_ids": [
+          "3912"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra10kwrzdaxhlp0d4ffr36ds4gkcq8w726dpum2t3",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.011170 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15999430,
+      "timestamp": "2025-06-10T17:25:23Z",
+      "tx_hash": "740E0F87D12E27DE1013B255E5A021ED1AD1678B59D6DCB67DA77FC101D898B3",
+      "event_type": "BOOST_LISTING",
+      "nft": {
+        "token_ids": [
+          "5622"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra12m9qp3jcxle2923t0rs6uz2k2l9v5kce56r6h9",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005305 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15999387,
+      "timestamp": "2025-06-10T17:21:09Z",
+      "tx_hash": "8C9616A830BBFC8DFAFA2C363F83254FA64828D2E798FA77CF32170FA3235008",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "5622"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra12m9qp3jcxle2923t0rs6uz2k2l9v5kce56r6h9",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra12m9qp3jcxle2923t0rs6uz2k2l9v5kce56r6h9",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005127 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15997883,
+      "timestamp": "2025-06-10T14:53:25Z",
+      "tx_hash": "8D8788A6578C40527B9B5D69098F4676B19FDEFD9E2FC6EFF174DA37B8C7A629",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "1138"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra16d6pzemu64ckee4l9t2ryrpjdgdrmxzd5jaajp",
+        "handle": "LlewynBonisagus",
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003163 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15997864,
+      "timestamp": "2025-06-10T14:51:34Z",
+      "tx_hash": "28A21A2B9B634E62C2A6473BB0C4DD014AEEA0C4F9A053DFDF9040F451D63595",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "4378"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1vjgada9t78eh4v8whp9p8cg4evq4erusx9w6w8",
+        "handle": "DigitalCowboy",
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003166 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15997831,
+      "timestamp": "2025-06-10T14:48:18Z",
+      "tx_hash": "F76B9DCCBEA41207F475CC4D578734A442EA9B494425C0E4A1D52B8E93DAD6F5",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "8982"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra18au39029aa4mey00fap4l74c936l8efjuqhf6u",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003179 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15994204,
+      "timestamp": "2025-06-10T08:51:51Z",
+      "tx_hash": "C1E2E9727C9E1F8E2F76CC797226560FDE0DE80A464E28C03FE6A79D03264F14",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "834.718762",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "834718762",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "834.718762 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "927.465291",
+        "ampLunaUser": "834.718762",
+        "ampLunaTreasury": "92.746529",
+        "totalLuna": "1553.756512",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "834.718762 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15992570,
+      "timestamp": "2025-06-10T06:11:12Z",
+      "tx_hash": "6FA78C50F608E8D0EFD0C4801B0504D1AE45F40454AB91754A4327BE13FC3B62",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "8982"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1k5q3uvaqwczp9zl7pdz8mp842esw97xd0grnxe",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "169.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "169000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "169.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022538 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15992384,
+      "timestamp": "2025-06-10T05:52:41Z",
+      "tx_hash": "5FF980A474543B5A2D6EB70DEB2DD6623E37FC21D9A91990F23021D1128A7BAA",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "1004"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005115 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15990325,
+      "timestamp": "2025-06-10T02:28:52Z",
+      "tx_hash": "1E18B6D495B94C84D713E17EA1C6F4C25E18C673718FAE75DE9582D638D0DBB5",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "3064",
+          "7801"
+        ],
+        "count": 2
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra17vya98uxt0jvn8lscz2kxv7jgztun7snqw7krz",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.017751 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15990299,
+      "timestamp": "2025-06-10T02:26:16Z",
+      "tx_hash": "D008677CF27956501A1529864B7A22272BE90B3F8C0B1B3EE8937C61971F3BC6",
+      "event_type": "NFTSWITCH_OTC_COMPLETE",
+      "nft": {
+        "token_ids": [
+          "7801"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra17vya98uxt0jvn8lscz2kxv7jgztun7snqw7krz",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "111.650000",
+        "token_symbol": "LUNA",
+        "token_name": "Terra LUNA",
+        "token_address": "uluna",
+        "decimals": 6,
+        "raw_amount": "111650000",
+        "denom": "uluna",
+        "formatted": "111.650000 LUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007891 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15990281,
+      "timestamp": "2025-06-10T02:24:29Z",
+      "tx_hash": "1F29A608BE3F3FCCE3D285970CB5E4E3D61477D074CA8E50B4A0699A3B6B76FD",
+      "event_type": "NFTSWITCH_OTC_CONFIRM",
+      "nft": {
+        "token_ids": [],
+        "count": 0
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hkqq2sy3dvvgt8sw2h0nfc3nzufa27d3xj69cf",
+        "handle": null,
+        "name": "NFT Switch Operator / OTC confirmation & escrow",
+        "type": "contract"
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003118 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15990272,
+      "timestamp": "2025-06-10T02:23:35Z",
+      "tx_hash": "1D7D4C89C3DE9EF91FEED44FFF3C65A2DAFD0489A0EFBB2F419AAF979A4E529E",
+      "event_type": "NFTSWITCH_OTC_CREATE",
+      "nft": {
+        "token_ids": [
+          "7801"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "110.000000",
+        "token_symbol": "LUNA",
+        "token_name": "Terra LUNA",
+        "token_address": "uluna",
+        "decimals": 6,
+        "raw_amount": "110000000",
+        "denom": "uluna",
+        "formatted": "110.000000 LUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.012568 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15989815,
+      "timestamp": "2025-06-10T01:38:34Z",
+      "tx_hash": "48C483587B03D358FDC04DDABFD00EE7AC0ED4BC17473CF021BED0B6184CB642",
+      "event_type": "NFTSWITCH_OTC_COMPLETE",
+      "nft": {
+        "token_ids": [
+          "3064"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra17vya98uxt0jvn8lscz2kxv7jgztun7snqw7krz",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "112.200000",
+        "token_symbol": "LUNA",
+        "token_name": "Terra LUNA",
+        "token_address": "uluna",
+        "decimals": 6,
+        "raw_amount": "112200000",
+        "denom": "uluna",
+        "formatted": "112.200000 LUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.007895 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15989804,
+      "timestamp": "2025-06-10T01:37:29Z",
+      "tx_hash": "E8122ABBD07CE38B02DC64E9304B00E8224CF94731F8B1D05F802F3A92702D78",
+      "event_type": "NFTSWITCH_OTC_CONFIRM",
+      "nft": {
+        "token_ids": [],
+        "count": 0
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hkqq2sy3dvvgt8sw2h0nfc3nzufa27d3xj69cf",
+        "handle": null,
+        "name": "NFT Switch Operator / OTC confirmation & escrow",
+        "type": "contract"
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.003117 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15989797,
+      "timestamp": "2025-06-10T01:36:47Z",
+      "tx_hash": "5B1068854522326F9F4C2A96BB3244F8C7401E76C9481FE53ABEEA9108FC7054",
+      "event_type": "NFTSWITCH_OTC_CREATE",
+      "nft": {
+        "token_ids": [
+          "3064"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "110.000000",
+        "token_symbol": "LUNA",
+        "token_name": "Terra LUNA",
+        "token_address": "uluna",
+        "decimals": 6,
+        "raw_amount": "110000000",
+        "denom": "uluna",
+        "formatted": "110.000000 LUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.012570 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15979596,
+      "timestamp": "2025-06-09T08:50:17Z",
+      "tx_hash": "B35EDB36E4FE885CEBC89B7989561A40A3E2ED72C62C663AA9108097736C87B7",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "835.236224",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "835236224",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "835.236224 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "928.040248",
+        "ampLunaUser": "835.236224",
+        "ampLunaTreasury": "92.804024",
+        "totalLuna": "1553.778479",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "835.236224 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15971735,
+      "timestamp": "2025-06-08T19:56:13Z",
+      "tx_hash": "764B8726BD48A7D0BAA2422E1AC9FF8E5A16185B73AAC7C6DA50616FDDA58C64",
+      "event_type": "DAODAO_STAKE",
+      "nft": {
+        "token_ids": [
+          "615"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra17vya98uxt0jvn8lscz2kxv7jgztun7snqw7krz",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009868 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15971565,
+      "timestamp": "2025-06-08T19:39:28Z",
+      "tx_hash": "E6C7C30ED3C0A5E74452310D7772D023D0087B8B32D0C6987E8F1992D34BDA8C",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "615"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1unq0s5h48vxq5tmm54q5c4keyju369thj3499q",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra17vya98uxt0jvn8lscz2kxv7jgztun7snqw7krz",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "150.000000",
+        "token_symbol": "bLUNA",
+        "token_name": "BBL bLUNA LSD",
+        "token_address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "decimals": 6,
+        "raw_amount": "150000000",
+        "denom": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+        "formatted": "150.000000 bLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.022513 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15965737,
+      "timestamp": "2025-06-08T10:05:21Z",
+      "tx_hash": "F72D504AD58AD83E7AA7047B9A8C59509476FF62F7B56B7BCF21970AF7D6AD2C",
+      "event_type": "BBL_SALE",
+      "nft": {
+        "token_ids": [
+          "3396"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1l2nd99yze5fszmhl5svyh5fky9wm4nz4etlgnztfu4e8809gd52q04n3ea",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": null,
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.045294 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "400.000000",
+        "ampLunaUser": null,
+        "ampLunaTreasury": null,
+        "totalLuna": "574.808305",
+        "validatorCount": 2,
+        "stakingValidator": "terravaloper1cq5h69zuzdrfuq483j3du77l4fldq0vl8ktmkl",
+        "stakingValidatorName": null,
+        "recipient": "terra1wa4d647a6ccf8a042gzpw68p3tjqqlq9puezg7",
+        "recipientHandle": "DeFiPatriot",
+        "treasuryAddress": null,
+        "formatted": "400.000000 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15965558,
+      "timestamp": "2025-06-08T09:47:39Z",
+      "tx_hash": "8A2D4EC108B0FAFDFD7270B890D96435841D0B80BF31C89858C8552C2CF39B6A",
+      "event_type": "BOOST_LISTING",
+      "nft": {
+        "token_ids": [
+          "4199"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005457 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15965528,
+      "timestamp": "2025-06-08T09:44:40Z",
+      "tx_hash": "CB71D2A03AFACC0F108DEFD80E1E67583F6E5437C2D2E6ABC412722A0215A5FE",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "4199"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "2.000000",
+        "token_symbol": "LUNA",
+        "token_name": "Terra LUNA",
+        "token_address": "uluna",
+        "decimals": 6,
+        "raw_amount": "2000000",
+        "denom": "uluna",
+        "formatted": "2.000000 LUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006955 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15965521,
+      "timestamp": "2025-06-08T09:44:01Z",
+      "tx_hash": "615DA071B09F458AEEE3664E3AC73B26640FE44D89EA456728DC2B868F29EDC2",
+      "event_type": "BOOST_LISTING",
+      "nft": {
+        "token_ids": [
+          "4199"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005455 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15965509,
+      "timestamp": "2025-06-08T09:42:50Z",
+      "tx_hash": "2DA86A478C8D625CA50EDBDEB0F90F54B161BFB87A494F5292724E959AEBAB60",
+      "event_type": "DAODAO_UNSTAKE",
+      "nft": {
+        "token_ids": [
+          "4199"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1zfge7des3j03sj4fekxu8r37lpkmces2457r6v",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.009106 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15964981,
+      "timestamp": "2025-06-08T08:50:48Z",
+      "tx_hash": "AA0356C9FC5A9CEC65FD7D63FCA0F7B7EF5E865B93BDF350EC707A9000AE6C3B",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "833.451805",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "833451805",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "833.451805 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000698 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "926.057561",
+        "ampLunaUser": "833.451805",
+        "ampLunaTreasury": "92.605756",
+        "totalLuna": "1549.526586",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "833.451805 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15950406,
+      "timestamp": "2025-06-07T08:50:22Z",
+      "tx_hash": "183E4ED0472644A1801A779911C171549AE5704B726F0A204545D3BA3A4DF61B",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "840.856056",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "840856056",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "840.856056 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "934.284506",
+        "ampLunaUser": "840.856056",
+        "ampLunaTreasury": "93.428450",
+        "totalLuna": "1562.363204",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "840.856056 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15935715,
+      "timestamp": "2025-06-06T08:51:16Z",
+      "tx_hash": "96CC4CF218857DC5D994DFB4B07ED25472A6905AA2236458A04287D196DD67D8",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "841.623913",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "841623913",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "841.623913 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "935.137681",
+        "ampLunaUser": "841.623913",
+        "ampLunaTreasury": "93.513768",
+        "totalLuna": "1562.848354",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "841.623913 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15935552,
+      "timestamp": "2025-06-06T08:35:21Z",
+      "tx_hash": "317A64A5FCA5E48CDC4C226F7AA04E594A4A4A451B46646EAA2AFA499B8D4340",
+      "event_type": "BOOST_TRANSFER",
+      "nft": {
+        "token_ids": [
+          "4285"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": true,
+        "amount": "500.000000",
+        "token_symbol": "LUNA",
+        "token_name": "Terra LUNA",
+        "token_address": "uluna",
+        "decimals": 6,
+        "raw_amount": "500000000",
+        "denom": "uluna",
+        "formatted": "500.000000 LUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006810 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15921020,
+      "timestamp": "2025-06-05T08:50:17Z",
+      "tx_hash": "F91A8684507791993BCA4913DD4F74CAF06A2DC0AB405A722EC964F25FB16F4A",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "839.554166",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "839554166",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "839.554166 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "932.837962",
+        "ampLunaUser": "839.554166",
+        "ampLunaTreasury": "93.283796",
+        "totalLuna": "1558.071537",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "839.554166 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15919327,
+      "timestamp": "2025-06-05T06:04:04Z",
+      "tx_hash": "6105E52949BF74B292A5D9A885B587763BBB757A56E49B76EB6455B178A2F0E2",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "5546"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1hr8zsfpch47qygc96c8e6rzkd2t7mafqx77ulw",
+        "handle": "DeFiPatriot",
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005165 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15908201,
+      "timestamp": "2025-06-04T11:51:33Z",
+      "tx_hash": "55987CDB19B8CB26ACCBB6ED1C297EF2F2EF38520AED6836086AD34313E1CB31",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "3935"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra10gdvn7j3hgtvnzncr8vvmhu3mn6gdd0lq56aq0",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006123 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15908195,
+      "timestamp": "2025-06-04T11:50:57Z",
+      "tx_hash": "EF016DA5C57D0178D0282DA384A283246AA1A43C8AA985CB541C7C36812864A4",
+      "event_type": "DAODAO_UNSTAKE",
+      "nft": {
+        "token_ids": [
+          "3935"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra10gdvn7j3hgtvnzncr8vvmhu3mn6gdd0lq56aq0",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra10gdvn7j3hgtvnzncr8vvmhu3mn6gdd0lq56aq0",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.008819 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15908151,
+      "timestamp": "2025-06-04T11:46:33Z",
+      "tx_hash": "593F091C154088D0237D75511D58A8AF75EDBC63DB0A48285D88C48B0CBD4E15",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "162"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1drwt52wuqd2p3z5y9pgylhnmqaaznga8xwfcds",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006121 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15908134,
+      "timestamp": "2025-06-04T11:44:56Z",
+      "tx_hash": "5798D325CCEA1E1467A78CFF6C40770F9547ADBAE007FDFD85D606089A232A11",
+      "event_type": "BOOST_CANCEL",
+      "nft": {
+        "token_ids": [
+          "162"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1drwt52wuqd2p3z5y9pgylhnmqaaznga8xwfcds",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1drwt52wuqd2p3z5y9pgylhnmqaaznga8xwfcds",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.005114 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15906362,
+      "timestamp": "2025-06-04T08:49:59Z",
+      "tx_hash": "311658A1632FE96712B963332FB3E18A9D2BD17E66839E6EE797206D1162CB12",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "839.566461",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "839566461",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "839.566461 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "932.851623",
+        "ampLunaUser": "839.566461",
+        "ampLunaTreasury": "93.285162",
+        "totalLuna": "1557.164018",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "839.566461 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15891709,
+      "timestamp": "2025-06-03T08:50:29Z",
+      "tx_hash": "C90699FA1CEB7B71944DAACCE5E06314A22BD703F5C513FAE3A6A24DA95E128E",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "840.755709",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "840755709",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "840.755709 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "934.173009",
+        "ampLunaUser": "840.755709",
+        "ampLunaTreasury": "93.417300",
+        "totalLuna": "1558.416561",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "840.755709 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15877039,
+      "timestamp": "2025-06-02T08:50:40Z",
+      "tx_hash": "A7FCFD79B69EF7BEE32113F93BCD9387E7AE474CEA19899293F577078C0F0D71",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "835.013205",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "835013205",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "835.013205 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "927.792450",
+        "ampLunaUser": "835.013205",
+        "ampLunaTreasury": "92.779245",
+        "totalLuna": "1546.850841",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "835.013205 ampLUNA"
+      }
+    },
+    {
+      "block_height": 15869890,
+      "timestamp": "2025-06-01T21:08:14Z",
+      "tx_hash": "E8965BEDACF6AB5802B1B3C7BE82A5E2B6E5DC5E96272216F1A3993DB9E37610",
+      "event_type": "NFT_BREAK",
+      "nft": {
+        "token_ids": [
+          "4110"
+        ],
+        "count": 1
+      },
+      "seller": {
+        "exists": false,
+        "address": null,
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1d0jq9l5narcgy46v5agnv8hqmn5m8kj3lkh93l",
+        "handle": null,
+        "name": null,
+        "type": null
+      },
+      "price": {
+        "exists": false,
+        "amount": null,
+        "token_symbol": null,
+        "token_name": null,
+        "token_address": null,
+        "decimals": null,
+        "raw_amount": null,
+        "denom": null,
+        "formatted": null
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.006123 LUNA"
+      },
+      "rewards": {
+        "exists": false,
+        "formatted": null
+      }
+    },
+    {
+      "block_height": 15862390,
+      "timestamp": "2025-06-01T08:50:55Z",
+      "tx_hash": "5CF0DE13D952BD57BC01715C58240F01372D6CBC7CA0E047E28F3B69A914DC1E",
+      "event_type": "ALLIANCE_CLAIM",
+      "nft": {
+        "token_ids": [],
+        "count": "N/A"
+      },
+      "seller": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "buyer": {
+        "exists": true,
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "handle": null,
+        "name": "The Alliance DAO Treasury",
+        "type": "dao"
+      },
+      "price": {
+        "exists": true,
+        "amount": "835.689361",
+        "token_symbol": "ampLUNA",
+        "token_name": "Eris ampLUNA LSD",
+        "token_address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "decimals": 6,
+        "raw_amount": "835689361",
+        "denom": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+        "formatted": "835.689361 ampLUNA"
+      },
+      "fees": {
+        "exists": true,
+        "formatted": "G: 0.000720 LUNA"
+      },
+      "rewards": {
+        "exists": true,
+        "type": "detailed",
+        "ampLunaTotal": "928.543734",
+        "ampLunaUser": "835.689361",
+        "ampLunaTreasury": "92.854373",
+        "totalLuna": "1547.185584",
+        "validatorCount": 100,
+        "stakingValidator": "terravaloper1q8w4u2wyhx574m70gwe8km5za2ptanny9mnqy3",
+        "stakingValidatorName": "Ceres Ventures",
+        "recipient": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "recipientHandle": null,
+        "treasuryAddress": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "formatted": "835.689361 ampLUNA"
+      }
+    }
+  ]
+}
